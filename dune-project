@@ -12,6 +12,7 @@
  (name ca-certs)
  (depends
   bos fpath ptime logs mirage-crypto
+  (digestif (>= 1.2.0))
   (x509 (>= 0.13.0))
   (ocaml (>= 4.08.0))
   (alcotest :with-test)
